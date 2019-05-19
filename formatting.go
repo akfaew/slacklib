@@ -6,10 +6,11 @@ import (
 	"github.com/nlopes/slack"
 )
 
-const (
-	ColorSuccess = "#00BB00"
-	ColorInfo    = "#000000"
-	ColorError   = "#F35A00"
+var (
+	ColorSuccess = "#00BB00" // An operation succeded
+	ColorError   = "#F35A00" // An operation failed
+	ColorInfo    = "#000000" // Regular message
+	ColorList    = "#999999" // An element in a list of items
 )
 
 type AttachmentT struct{}
