@@ -3,7 +3,7 @@ package slacklib
 import (
 	"fmt"
 
-	"github.com/nlopes/slack"
+	"github.com/slack-go/slack"
 )
 
 var (
@@ -67,7 +67,7 @@ func (_ AttachmentT) Errort(title, text string, a ...interface{}) slack.Attachme
 func (_ MsgT) MakeMsg(attachments ...slack.Attachment) *slack.Msg {
 	return &slack.Msg{
 		Attachments:     attachments,
-		ReplaceOriginal: true, // this should be default, it's a nlopes/slack bug
+		ReplaceOriginal: true, // this should be default, it's a slack-go/slack bug
 	}
 }
 

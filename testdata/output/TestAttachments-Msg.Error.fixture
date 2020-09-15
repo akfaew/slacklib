@@ -1,1 +1,1 @@
-{"attachments":[{"color":"#F35A00","fallback":"","text":"hello world"}],"replace_original":true,"delete_original":false}
+{"attachments":[{"color":"#F35A00","text":"hello world","blocks":null}],"replace_original":true,"delete_original":false,"blocks":null}

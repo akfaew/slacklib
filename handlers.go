@@ -11,8 +11,8 @@ import (
 	. "github.com/akfaew/aeutils"
 	"github.com/akfaew/utils"
 	. "github.com/akfaew/webhandler"
-	"github.com/nlopes/slack"
-	"github.com/nlopes/slack/slackevents"
+	"github.com/slack-go/slack"
+	"github.com/slack-go/slack/slackevents"
 	"google.golang.org/appengine"
 )
 
